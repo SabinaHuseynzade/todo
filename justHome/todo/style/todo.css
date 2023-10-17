@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.todo{
+    border: 1px solid gray;
+    padding: 20px;
+    max-width: 250px;
+    border-radius: 20px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo-content{
+    height: 90%;
+    overflow: auto;
+    
+}
